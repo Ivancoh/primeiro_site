@@ -1,0 +1,122 @@
+p {
+  color: #8B8B7A;
+  line-height: 33px; /* tamanho da altura de cada linha */
+  letter-spacing: 3px; /* tamanho do espaço entre cada letra */
+  word-spacing: 5px; /* tamanho do espaço entre cada palavra */
+  text-indent: 30px; /* tamanho da margem da primeira linha do texto */
+  padding: 10px 20px 15px;
+}
+
+body{
+	font-family: "Arial", "Helvetica", sans-serif;
+	border-color: red;
+  	border-style: dashed;
+  	border-width: 1px;
+  	border: 1px solid red;
+  	margin-left: auto;
+       margin-right: auto;
+       width: 940px;
+}
+
+h1 {
+     padding: 10px;
+ }
+
+ h2 {
+     margin-top: 30px;
+ }
+
+ figure {
+     padding: 15px;
+     margin: 30px;
+ }
+
+ figcaption {
+     margin-top: 10px;
+}
+ol {
+    /* alterar para uma sequência alfabética antes de cada <li> da lista ordenada */
+    list-style-type: upper-alpha;
+  }
+
+  #rodape img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+  }
+
+  #centro-distribuicao {
+   margin-left: auto;
+   margin-right: auto;
+   width: 550px;
+ }
+
+ footer {
+     color: #777;
+     margin: 30px 0;
+     padding: 30px 0;
+ }
+
+ footer img {
+     margin-right: 30px;
+     vertical-align: middle;
+     width: 94px;
+ }
+
+ #familia-pelho {
+         float: left;
+         margin: 0 0 10px 10px;
+     }
+
+.sacola {
+ background-image: url(..img/sacola.png);
+ background-repeat: no-repeat;
+ background-position: top right;
+ font-size: 14px;
+ text-align: right;
+ width: 140px;
+ padding-right: 35px;
+}
+
+ .menu-opcoes menu-cabecalho ul {
+   font-size: 15px;
+   display: inline;
+ }
+
+ .menu-opcoes menu-cabecalho a {
+ display: inline;
+ }
+
+ body {
+   color: #333333;
+   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ }
+
+.menu-opcoes menu-cabecalho ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 940px;
+}
+
+.logotipo {
+    position: relative;
+    top: 20px;
+    left: 50px;
+  }
+
+ header {
+   position: relative;
+ }
+
+
+
+ .sacola {
+   position: absolute;
+   top: 0;
+   right: 0;
+   background-image: url(..img/sacola.png);
+ }
